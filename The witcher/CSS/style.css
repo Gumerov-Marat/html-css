@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'MasonChronicles';
+  src: url('../fonts/MasonChronicles.woff') format('woff'),
+    url('../fonts/MasonChronicles.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #141218;
   font-family: 'Roboto', sans-serif;
@@ -41,9 +49,21 @@ body {
 .rating {
       display: flex;
       align-items: center;
+      margin-bottom: 10px;
 }
 .rating-number {
   font-size: 12px;
   line-height: 14px;
   margin-left: 9px;
+}
+.main-title {
+  font-size: 76px;
+  line-height: 89px;
+  font-family: 'MasonChronicles', serif;
+  margin-bottom: 10px;
+}
+.main-discription {
+  max-width: 458px;
+  font-size: 14px;
+  line-height: 150%;
 }

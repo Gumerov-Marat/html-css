@@ -11,7 +11,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #ffffff;
+  color: #ffffff;]
+  min-height: 100vh;
 }
 .container {
   max-width: 1140px;
@@ -71,6 +72,7 @@ body {
 .main-content {
   display: flex;
   align-items: center;
+  margin-bottom: 85px;
 }
 .button {
   background: #9D2929;
@@ -103,3 +105,71 @@ body {
   left: -16px;
   top: -16px;
 }
+/* slider */
+.series {
+  display: flex;
+  align-items:center;
+}
+.card {
+  width: 164px;
+  height: 113px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 13px;
+  margin-right: 30px;
+}
+.card-subtitle{
+  font-size: 10px;
+  line-height: 12px;
+  margin-bottom: 2px;
+}
+.card-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.series-1 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+  url(../IMG/series/series-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.series-2 {
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),
+  url(../IMG/series/series-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.arrow {
+  width: 32px;
+  height: 23px;
+  border: none;
+  background-image: url(../IMG/arrow.svg);
+  background-repeat: no-repeat;
+  position: center;
+  background-color: transparent;
+}
+/*footer*/
+.footer {
+  background-color: #141218;
+  border: 1px solid red;
+  padding: 20px 0;
+
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-link {
+  text-decoration: none;
+  color: #3a383d;
+}
+.copiright {
+    color: #3a383d;
+}
+/* на счектчике 0 11 14*/

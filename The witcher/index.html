@@ -6,6 +6,7 @@
   <title>Ведьмак - официальный сайт сериала</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="CSS/reset.css">
+  <link rel="stylesheet" href="../The witcher/CSS/swiper.min.css">
   <link rel="stylesheet" href="../The witcher/CSS/style.css">
 </head>
 <body>
@@ -73,29 +74,43 @@
       </div>
       <!-- /.main-content -->
 
-      <div class="series">
-        <div class="card series-1">
-          <span class="card-subtitle">Серия 1</span>
-          <!-- /.card-subtitle -->
-          <h2 class="card-title">Начало конца</h2>
-          <!-- /.card-title -->
-        </div>
-        <!-- /.card -->
-        <div class="card series-2">
-          <span class="card-subtitle">Серия 2</span>
-          <!-- /.card-subtitle -->
-          <h2 class="card-title">Четыре знака</h2>
-          <!-- /.card-title -->
-        </div>
-        <!-- /.card -->
-          <div class="navigation">
-            <button class="arrow">
-          
-            </button> <!-- /.arrow -->
+     <div class="series">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card series-1">
+                <span class="card-subtitle">Серия #1</span>
+                <!-- /.card-subtitle -->
+                <h2 class="card-title">Начало конца</h2>
+                <!-- /.card-title -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card series-2">
+                <span class="card-subtitle">Серия #2</span>
+                <!-- /.card-subtitle -->
+                <h2 class="card-title">Четыре знака</h2>
+                <!-- /.card-title -->
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card series-2">
+                <span class="card-subtitle">Серия #3</span>
+                <!-- /.card-subtitle -->
+                <h2 class="card-title">Четыре знака</h2>
+                <!-- /.card-title -->
+              </div>
+            </div>
+            ...
           </div>
-          <!-- /.navigation -->
-      </div>
-      <!-- /.series -->
+        </div>
+        <!-- Slider main container -->
+        <!-- If we need navigation buttons -->
+        <div class="arrow"></div>
+     </div>
     </div>
     <!-- /.container -->
   </main>
@@ -124,5 +139,7 @@
     </div>
     <!-- /.container -->
   </footer>
+  <script src="/The witcher/js/swiper.min.js"></script>
+  <script src="/The witcher/js/main.js"></script>
 </body>
 </html>
